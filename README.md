@@ -178,13 +178,6 @@ Launch it locally or deploy to the cloud!
 
 🌍 Regional Spread — Box plots
 
-⚙️ How to Run the Project
-bash
-Copy code
-# Clone the repository
-git clone https://github.com/your-username/eda-tb-analysis.git
-cd eda-tb-analysis
-
 # Launch the Jupyter notebook or run the Dash app
 Detailed instructions are available inside the repository.
 
