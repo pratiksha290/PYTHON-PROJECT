@@ -3,15 +3,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
-import warnings
-warnings.filterwarnings("ignore")
-
-# Load data
-data = pd.read_csv("TB_Burden_Country.csv")
-
-# Check basic info
-print(data.info())
+import se
 print(data.shape)
 print(data.head())
 
