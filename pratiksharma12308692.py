@@ -8,11 +8,7 @@ print(data.shape)
 print(data.head())
 
 # Check and visualize missing values
-sns.heatmap(data.isnull(), cbar=False, cmap='YlGnBu')
-plt.title('Missing Values Heatmap', fontsize=12)
-plt.xticks(rotation=90, fontsize=8)
-plt.yticks(fontsize=8)
-plt.tight_layout()
+sns.heatmap(data.isnull(), cbar=False, cmap='
 plt.show()
 
 # Drop columns with many NaNs
