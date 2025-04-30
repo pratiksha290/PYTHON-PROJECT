@@ -10,8 +10,7 @@ warnings.filterwarnings("ignore")
 # Load data
 data = pd.read_csv("TB_Burden_Country.csv")
 
-# Check basic info
-print(data.info())
+
 print(data.shape)
 print(data.head())
 
