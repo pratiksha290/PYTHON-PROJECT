@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 warnings.filterwarnings("ignore")
+# load data from gov
 
 # Load data
 data = pd.read_csv("TB_Burden_Country.csv")
